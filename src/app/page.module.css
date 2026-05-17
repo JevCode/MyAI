@@ -211,16 +211,6 @@
   border-color: rgba(79,158,255,0.18);
 }
 
-:global(.cursor) {
-  display: inline-block;
-  width: 2px;
-  height: 1em;
-  background: var(--accent);
-  animation: blink 1s ease infinite;
-  vertical-align: text-bottom;
-  margin-left: 2px;
-}
-
 /* ── Typing dots ── */
 .typing { display: flex; align-items: center; gap: 5px; padding: 4px 0; }
 .typing span {
